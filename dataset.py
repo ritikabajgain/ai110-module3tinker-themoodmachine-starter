@@ -23,6 +23,13 @@ POSITIVE_WORDS = [
     "chill",
     "relaxed",
     "amazing",
+    "proud",
+    "hopeful",
+    "best",
+    "beautiful",
+    "wonderful",
+    "fantastic",
+    "thankful",
 ]
 
 NEGATIVE_WORDS = [
@@ -36,6 +43,14 @@ NEGATIVE_WORDS = [
     "stressed",
     "hate",
     "boring",
+    "exhausted",
+    "falling",
+    "apart",
+    "worst",
+    "annoying",
+    "miserable",
+    "overwhelmed",
+    "frustrated",
 ]
 
 # ---------------------------------------------------------------------
@@ -50,6 +65,13 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "Lowkey having the best day ever rn 😂",
+    "I absolutely love getting zero sleep before an exam",
+    "This assignment is gonna end me 💀",
+    "Proud of myself but also exhausted 🥲",
+    "Everything is falling apart but at least I have coffee :)",
+    "Just got the internship offer LET'S GOOO 🎉",
+    "Idk how to feel about today honestly"
 ]
 
 # Human labels for each post above.
@@ -65,6 +87,13 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "positive",  # "Lowkey having the best day ever rn 😂"
+    "negative",  # "I absolutely love getting zero sleep before an exam"##
+    "negative",  # "This assignment is gonna end me 💀"
+    "mixed",     # "Proud of myself but also exhausted 🥲"
+    "mixed",     # "Everything is falling apart but at least I have coffee :)"
+    "positive",  # "Just got the internship offer LET'S GOOO 🎉"
+    "neutral"    # "Idk how to feel about today honestly"
 ]
 
 # TODO: Add 5-10 more posts and labels.
